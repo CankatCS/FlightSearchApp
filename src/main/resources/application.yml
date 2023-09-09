@@ -1,1 +1,28 @@
+server:
+  port: 8080
 
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/amadeusdb
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+  security:
+    user:
+      name: cankat
+      password: cankat
+app:
+  version: v1.0.0
+
+token:
+  secret:
+    key: 420b0f24b91f97500283fd7d0af0d099981f345e6050411905650c6de8673163
+  expirationms: 3600000
