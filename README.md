@@ -98,6 +98,17 @@ Here is all endpoints
 
 Authentication and security in this project are implemented using JSON Web Tokens (JWT) for user identity verification and access control. We use the `SignatureAlgorithm.HS256` algorithm to sign and verify JWT tokens. Below, we provide a detailed overview of how authentication and security are configured in this project.
 
+Default Admin credentials of the project: 
+
+```bash
+{
+"firstName":"admin",
+"lastName":"admin",
+"email":"admin@admin.com"
+"password":"password"
+}
+```
+
 In the Spring Security configuration (`SecurityFilterChain`), we have the following settings:
 
 - CSRF protection is disabled (`csrf.disable()`) as this is a stateless REST API.
