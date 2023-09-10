@@ -90,9 +90,10 @@ Here's an overview of the directory structure of this project:
 - **`pom.xml`**: Maven project configuration file.
 
 ## API Endpoints
-Here is all endpoints 
+Here is all endpoints:
 
-![swaggerUI_Controllers](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/27aa0c49-a7f8-425f-83dc-7812c1cc7eef)
+![swaggerUI_Controllers](https://github.com/CankatCS/FlightSearchApp/assets/68610552/58c231cb-a3b9-4726-ab3a-9b484e7534fc)
+
 
 And all the schemas of Dto's:
 
@@ -161,11 +162,11 @@ Here is the format that you can use to make requests to search API & some exampl
 
 1.One way flight request;
 
-![oneWayOutput](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/517945a7-65bc-4ae6-a7e5-119f98965c81)
+![oneWayOutput](https://github.com/CankatCS/FlightSearchApp/assets/68610552/3d6e957c-7514-47ab-ac77-abcbded10b4b)
 
 2. Round up trip flight request;
 
-![twoWayOutput](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/ac71e195-6466-4c3d-8891-f2c12848a742)
+![twoWayOutput](https://github.com/CankatCS/FlightSearchApp/assets/68610552/c8714f22-84b1-429c-a013-7d0d7ff46146)
 
 ## Contact
 
