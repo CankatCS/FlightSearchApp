@@ -94,6 +94,11 @@ Here is all endpoints
 
 ![swaggerUI_Controllers](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/27aa0c49-a7f8-425f-83dc-7812c1cc7eef)
 
+And all the schemas of Dto's:
+
+![dtoSchemas](https://github.com/CankatCS/FlightSearchApp/assets/68610552/30797ab1-e261-4cf7-ad67-05cc4782a5cc)
+
+
 ## Authentication
 
 Authentication and security in this project are implemented using JSON Web Tokens (JWT) for user identity verification and access control. We use the `SignatureAlgorithm.HS256` algorithm to sign and verify JWT tokens. Below, we provide a detailed overview of how authentication and security are configured in this project.
