@@ -4,6 +4,7 @@ import com.amadeuscankatsezer.casestudy.dto.FlightDto;
 import com.amadeuscankatsezer.casestudy.dto.FlightSearchRequestDto;
 import com.amadeuscankatsezer.casestudy.dto.FlightSearchResponseDto;
 import com.amadeuscankatsezer.casestudy.service.FlightService;
+import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -25,6 +26,9 @@ public class SearchController {
     private final FlightService flightService;
 
     @GetMapping
+    @Operation(
+            description = "Endpoint to list all the flights according to given criteria"
+    )
     public ResponseEntity<FlightSearchResponseDto> searchFlights(@Valid @RequestBody FlightSearchRequestDto request) {
         if (request.getReturnDate() != null) {
             List<FlightDto> departingFlights = flightService.searchFlights(request.getDepartureAirport(), request.getArrivalAirport(), request.getDepartureDate());

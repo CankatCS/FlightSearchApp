@@ -19,7 +19,7 @@ public class ScheduledFlightDataFetcher {
     private final FlightService flightService;
     private final MockAPI mockAPI;
 
-    @Scheduled(cron = "0 11 1 * * *")
+    @Scheduled(cron = "0 0 0 * * *")
     public void fetchAndSaveFlightData() {
         List<FlightDto> flights = mockAPI.fetchFlightData();
         flightService.saveFlights(flights);
