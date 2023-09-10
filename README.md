@@ -1,6 +1,6 @@
 # Flight Search App (Backend)
 
-A backend app for a flight search application. 
+Backend app for a flight search application. 
 
 ## Table of Contents
 
