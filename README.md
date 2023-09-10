@@ -69,7 +69,7 @@ spring.datasource.password=your_database_password
 cd flight-search-api
 ./mvnw spring-boot:run
 ```
-### Project Structure
+## Project Structure
 
 Here's an overview of the directory structure of this project:
 
@@ -89,12 +89,12 @@ Here's an overview of the directory structure of this project:
   - `application.properties`: Configuration file for Spring Boot, including database settings.
 - **`pom.xml`**: Maven project configuration file.
 
-### API Endpoints
+## API Endpoints
 Here is all endpoints 
 
 ![swaggerUI_Controllers](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/27aa0c49-a7f8-425f-83dc-7812c1cc7eef)
 
-### Authentication
+## Authentication
 
 Authentication and security in this project are implemented using JSON Web Tokens (JWT) for user identity verification and access control. We use the `SignatureAlgorithm.HS256` algorithm to sign and verify JWT tokens. Below, we provide a detailed overview of how authentication and security are configured in this project.
 
@@ -139,7 +139,7 @@ public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Excepti
 }
 ```
 
-### Search API
+## Search API
 
 Here is the format that you can use to make requests to search API & some example output
 
@@ -151,7 +151,7 @@ Here is the format that you can use to make requests to search API & some exampl
 
 ![twoWayOutput](https://github.com/CankatCS/RoleBasedAuth/assets/68610552/ac71e195-6466-4c3d-8891-f2c12848a742)
 
-### Contact
+## Contact
 
 - Cankat Sezer
 - Tel: [+90 506 933 26 77](tel:+905069332677)
