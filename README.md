@@ -50,7 +50,7 @@ This project is a backend API developed for a flight search application. It allo
 1. **Clone this repository to your local machine:**
 
 ```bash
-   git clone https://github.com/cankatcs/flightsearchapp.git
+  git clone https://github.com/CankatCS/FlightSearchApp.git
 ```
 
 2. **Database configuration:**
